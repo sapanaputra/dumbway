@@ -1,0 +1,8 @@
+1. Menampilkan semua data tabel image blog
+jawaban : SELECT * FROM image_blog; 
+
+2. Menampilkan data 1 image blog dengan user yang membuat image blog tersebut
+jawaban : SELECT file_image,user_id FROM image_blog;
+
+3. Tampilkan data image blog per user terntentu
+jawaban : SELECT * FROM image_blog WHERE user_id = '5';
